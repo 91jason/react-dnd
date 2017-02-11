@@ -1,5 +1,6 @@
-export { default as DragDropContext } from './DragDropContext';
-export { default as DragDropContextProvider } from './DragDropContextProvider';
-export { default as DragLayer } from './DragLayer';
-export { default as DragSource } from './DragSource';
-export { default as DropTarget } from './DropTarget';
+import { default as DragDropContext } from './DragDropContext';
+import { default as DragDropContextProvider } from './DragDropContextProvider';
+import { default as DragLayer } from './DragLayer';
+import { default as DragSource } from './DragSource';
+import { default as DropTarget } from './DropTarget';
+export {DragDropContext,DragDropContextProvider,DragLayer,DragSource,DropTarget}
